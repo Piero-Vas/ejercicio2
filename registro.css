@@ -1,0 +1,81 @@
+body{
+    background-image:url(./pngtree-landscape-background-in-the-snow-mountains-at-night-image_307750.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
+}
+
+p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 80px;
+    margin: 0 auto;
+    border-radius:50%;
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+    padding-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    border: 1px solid white;
+    border-color: white;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    top:10px;
+    position: relative;
+    font-size: 16px;
+
+}
+
+.btn{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid #D4DBEC;
+    border-radius: 50px;
+    background-color: #D4DBEC;
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+
+.btn:hover{
+    transition: .3s;
+    border: 1px solid #28A7B9;
+    cursor:pointer;
+    background-color: #28A7B9;
+}
+
+::placeholder{
+    color:rgba(255, 255, 255, 0.712);
+}
+
+.container{
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+
+}
+
+a{
+    
+    color: rgba(255, 255, 255, 0.808);
+    left:-40px;
+    position: relative;
+    font-size: 12px;
+}
+
